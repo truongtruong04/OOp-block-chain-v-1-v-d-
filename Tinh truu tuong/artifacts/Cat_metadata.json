@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "makeSound",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Tinh truu tuong/Cat.sol": "Cat"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Tinh truu tuong/Animal.sol": {
+			"keccak256": "0x0a9506495ca9f4c09dface377d194febd51be068faccdfdd53e5a1653f390c30",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://111f29864cd3e7238789c70377a9ca6846c4b5ab6e801b2761f3214c3295b517",
+				"dweb:/ipfs/QmSvXJ3fz5WwZj5xkK82A5p2CWXRf5BfYEwcXH5ZaZJgPP"
+			]
+		},
+		"contracts/Tinh truu tuong/Cat.sol": {
+			"keccak256": "0x8a4dbdf1b8d30edd97afe2245683223e5502f1cb7fbe32c06f0e385b97d397e8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://16f82a0b6b013453f088b8f804562560ecb90629e9c16d5e24b4867b94abdc40",
+				"dweb:/ipfs/QmRcHCv3Ub71qne3Woza2he5DFrpvHFFNQxwzt17GpTTSC"
+			]
+		}
+	},
+	"version": 1
+}

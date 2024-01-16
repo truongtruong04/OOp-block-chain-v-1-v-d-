@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "makeSound",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Tinh truu tuong/Animal.sol": "Animal"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Tinh truu tuong/Animal.sol": {
+			"keccak256": "0x0a9506495ca9f4c09dface377d194febd51be068faccdfdd53e5a1653f390c30",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://111f29864cd3e7238789c70377a9ca6846c4b5ab6e801b2761f3214c3295b517",
+				"dweb:/ipfs/QmSvXJ3fz5WwZj5xkK82A5p2CWXRf5BfYEwcXH5ZaZJgPP"
+			]
+		}
+	},
+	"version": 1
+}

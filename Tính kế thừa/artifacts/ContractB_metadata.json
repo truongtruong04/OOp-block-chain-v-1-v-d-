@@ -1,0 +1,93 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getMeo",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "meo",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_Meo",
+						"type": "uint256"
+					}
+				],
+				"name": "setMeo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Tính kế thừa/ContractB.sol": "ContractB"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Tính kế thừa/ContractA.sol": {
+			"keccak256": "0x880192aa8876c6db7363c495e9101c6eed010d4b4b654f3fd52f65baaeb4f7a5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d88677558abba5034c429185c35cabae36200a1d3fc88dcac3b9b90d92327819",
+				"dweb:/ipfs/QmVTVu88HpWxSJcsM7ub18H1TDcCvF2qfLX7jTuC1MGY6Z"
+			]
+		},
+		"contracts/Tính kế thừa/ContractB.sol": {
+			"keccak256": "0xaac333a2eaa15eec6e80473bbbb9581c5a9d82440fa705c1d08e0cfe5362b2f6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2171314e1e7fdbb926f82a6a5a2d0126a2bc93f4b3f366c2b750d8188c54bdc8",
+				"dweb:/ipfs/QmYdW5niCu6S7Dj267wnCUZJ88zCKEUF83MEGj7xLa1qJC"
+			]
+		}
+	},
+	"version": 1
+}

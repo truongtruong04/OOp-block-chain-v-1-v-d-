@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "animalSound",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Tinh đa hinh/Main.sol": "Main"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Tinh đa hinh/Animal.sol": {
+			"keccak256": "0xc653c34d04850a0a9a4475579fb8b3ff8b3a939d89c85f3ef0657324f336ae6f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://fc2b5e5206013b59ccd170ed625dff7c1efdc297937b5bf1de1581ed832de74d",
+				"dweb:/ipfs/QmdMNptZaT5xH8M7miXTu45RRt5bkoJmGHs2pmLZg3f9Ew"
+			]
+		},
+		"contracts/Tinh đa hinh/Cat.sol": {
+			"keccak256": "0xfae9b6bf25acd2980e86a7920ef0095450a70886fc5ef9a230643fd3adc5a924",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://798d9ef4af3325a8bf25fa1e7fad97c70b49f2237421f81c4c2c2834a417b201",
+				"dweb:/ipfs/QmQ1R2Ld5HbuuGjEFbL9di71Jg65jsTpJNbNWaBvANRYM6"
+			]
+		},
+		"contracts/Tinh đa hinh/Dog.sol": {
+			"keccak256": "0xd919fe8ec86c5d98c605cee6c9367f2c08b4878daf243d1904e86b92fa744f5a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ec9291fc84b1295b0d9857f7a4708604894d6111afc6696bafb31a6bd3fc1b70",
+				"dweb:/ipfs/Qmc3xbq8jiNVH22A5joPbrBE9J5x4SeTZ9TgCF8fQxZ7w8"
+			]
+		},
+		"contracts/Tinh đa hinh/Main.sol": {
+			"keccak256": "0x09fce0a3a77b83d5bbc3254701e7d57507d30876f41ac308abe0beb1047dd5a6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://40951890d354cb594d853ce9df8b37614845011b54343df14f02cf3ec4521db8",
+				"dweb:/ipfs/QmTHLrDXThbVg1kp4KXZFqQsB3mepDnhrfFGUrj87vSwrW"
+			]
+		}
+	},
+	"version": 1
+}

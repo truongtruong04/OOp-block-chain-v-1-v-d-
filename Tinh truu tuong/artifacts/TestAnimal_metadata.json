@@ -1,0 +1,93 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "animal",
+				"outputs": [
+					{
+						"internalType": "contract Animal",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "makeAnimalSound",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_animalAddress",
+						"type": "address"
+					}
+				],
+				"name": "setAnimal",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Tinh truu tuong/TestAnimal.sol": "TestAnimal"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Tinh truu tuong/Animal.sol": {
+			"keccak256": "0x0a9506495ca9f4c09dface377d194febd51be068faccdfdd53e5a1653f390c30",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://111f29864cd3e7238789c70377a9ca6846c4b5ab6e801b2761f3214c3295b517",
+				"dweb:/ipfs/QmSvXJ3fz5WwZj5xkK82A5p2CWXRf5BfYEwcXH5ZaZJgPP"
+			]
+		},
+		"contracts/Tinh truu tuong/TestAnimal.sol": {
+			"keccak256": "0x9e149645e4ab0f69415ae50139e02e7eb1431da64aee14e21336aba375b66128",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://97af3eb51bdebab608e52d65775b84356d788813fc8d9a693e8cad8826849e3b",
+				"dweb:/ipfs/QmQrToeDq8xRof2oFLgxhLRw364CNGDS2QASU7ntsLFJab"
+			]
+		}
+	},
+	"version": 1
+}

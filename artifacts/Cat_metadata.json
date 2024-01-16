@@ -1,0 +1,60 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "eat",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "makeSound",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Animal.sol": "Cat"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Animal.sol": {
+			"keccak256": "0x2894a8ed907d7fad5b4c8ab21c047b258471f2f94fca966f96904a01285cc152",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://19f9db1203d435a553b53c23c5db12d667cc19807b67d15bc6bbc63b2c557a4a",
+				"dweb:/ipfs/QmbjEStgBPZvbXguYGhnrjSgJsrHAJWVXo58ELEFFB2Xbk"
+			]
+		}
+	},
+	"version": 1
+}
