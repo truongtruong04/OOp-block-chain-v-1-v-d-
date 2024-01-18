@@ -1,0 +1,88 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "fly",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "sound",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"artifacts/Tính đa kế thừa/Bird.sol": "Bird"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"artifacts/Tính đa kế thừa/Animal.sol": {
+			"keccak256": "0xbd1a1019b7362ea0ba8d95f061eb2705d6931976558cd41745ebda6180515529",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://977302ff383c264a3f5b5fbfff9c84f38559780538201ab5f7a1ac8c026386fe",
+				"dweb:/ipfs/QmegcBMvtpxRHzbFojX4DrUjeezLjBYaaaQBcZUNnzyAc1"
+			]
+		},
+		"artifacts/Tính đa kế thừa/Bird.sol": {
+			"keccak256": "0x2ce5edeae645918e4d8861a8721693d0be0f703254e90ba0a6da629fb3181d73",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3e4577a8614febfd5d84580d335d0b3f1a0098c1b038881d933ca0d3e4eddd1f",
+				"dweb:/ipfs/QmPYgxyoinus28dBqdAxGwiBFk1PfRe3StgR8XR8nFKEwf"
+			]
+		},
+		"artifacts/Tính đa kế thừa/Flyable.sol": {
+			"keccak256": "0xd8a86695b039a68a1365ce364b228a59813fa65e1024c125dc49e2c8d7d7a429",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2ee09f1be912e5a6cb5339bc003261bd2925abbb96017912112ea5e6f9bd3b26",
+				"dweb:/ipfs/Qmd44z9oYu9qNSob2GQ96SHFQWSvmKMEK5YUJZoNzzH4bJ"
+			]
+		}
+	},
+	"version": 1
+}
